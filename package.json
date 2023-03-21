@@ -1,0 +1,14 @@
+{
+  "name": "01-dom",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "http-server ./ -o -p 3002",
+    "test": "jest --collectCoverage=false",
+    "grade": "jest --useStderr --json --outputFile=./tests/result.json"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
